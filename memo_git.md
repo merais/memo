@@ -19,6 +19,13 @@
 **`git push origin master`** : Envois les commits local sur github *(demande login et mdp)*.  
 **`git pull origin master`** : Récupère les mises à jours depuis github.  
 
+Dans le cas ou le projet serais déja existant et que vous vouler le mettre sur github : 
+1. Créer un nouveau repository sur [github](https://github.com/) ayant le meme nom que le dossier dans lequel est le projet.
+2. Faire un **`git init`** dans le dossier du projet.
+3. Faire un **`git add *`**.
+4. Puis un **`git commit -m "Description précise"`**.
+5. Et enfin **`git remote add origin URL_du_projet_git`**, le liens entre votre dossier et github sera établit. Il ne restera plus qu'a faire un push.
+
 **********************************************************************************************************************************
 ### Branche ###
 **`git branch`** : Liste les branches du projet.  
