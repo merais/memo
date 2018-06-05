@@ -1,5 +1,9 @@
 # Memo Git - GitHub #
 
+### Configuration de git ###
+**`git config --global user.email "you@example.com"`**
+**`git config --global user.name "Your Name"`**
+
 ### Commande de base ###
 **`git init`** :  Créer un nouveau repository (dossier git).
 **`git add mon_fichier`** : Ajoute un fichier présent dans le dossier au repository.
